@@ -21,4 +21,9 @@ angular.module('starter', ['ionic'])
       StatusBar.styleDefault();
     }
   });
+}).controller("crtl", function($scope){
+  $scope.redirect = function(){
+    window.location.href="liste.html"
+  }
 })
+ 
