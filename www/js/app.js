@@ -22,6 +22,8 @@ angular.module('starter', ['ionic'])
     }
   });
 }).controller("crtl", function($scope){
+  // valeur initialisée par $scope dans js/app.js
+  $scope.firstName = "foulen";
   $scope.redirect = function(){
     window.location.href="liste.html"
   }
